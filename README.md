@@ -1,0 +1,3 @@
+# Type Error in Javascript: Adding Number and String
+
+This repository demonstrates a common type error in JavaScript that arises when attempting to add a number and a string directly. The bug.js file contains the erroneous code, while bugSolution.js provides the corrected version.  The issue stems from JavaScript's loose typing; it attempts type coercion, which may not always produce the expected result.  The solution explicitly converts both operands to numbers before addition, ensuring correct arithmetic operation.
